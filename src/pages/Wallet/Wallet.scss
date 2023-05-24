@@ -1,0 +1,135 @@
+.wallet-screen {
+  background-color: #000;
+  color: #fff;
+  padding: .5rem;
+  box-sizing: border-box;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+
+  .content {
+    padding: .7rem 1rem;
+    border-radius: 10px;
+    background: linear-gradient(160deg, #6353dd, #9e59dd, #ad55d6);
+
+    .account-deatils{
+        .heading{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            img{
+                width: 16px;
+                background-color: #ddcfeb;
+                padding: .6rem;
+                border-radius: 10px;
+            }
+            span{
+                // color: #000;
+                font-size: .9rem;
+                font-weight: 700;
+                text-shadow: 2px 2px 1px grey;
+            }
+        }
+
+        .account{
+            margin: .9rem 0;
+            .account-name{
+                font-size: .9rem;
+                opacity: .7;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .btn {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  flex-direction: column;
+          
+                  button {
+                    outline: unset;
+                    border: unset;
+                    padding: 0.3rem;
+                    font-size: .9rem;
+                    color: #fff;
+                    background-color: #c596f0;
+                    border-radius: 7px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  }
+                }
+            }
+            .account-address{
+                font-size: .9rem;
+                width: 100%;
+                word-wrap: break-word;
+                margin-top: .4rem;
+            }
+        }
+    }
+
+    .main {
+      .heading {
+        font-size: 0.8rem;
+        color: #fff;
+        opacity: 0.7;
+      }
+
+      .balance {
+        font-size: 1.2rem;
+        margin-top: 0.2rem;
+        margin-bottom: .6rem;
+        font-weight: 700;
+
+        .float-balance {
+          font-size: 0.9rem;
+        }
+      }
+    }
+
+    .all-btns {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        button {
+          outline: unset;
+          border: unset;
+          padding: 0.3rem;
+          font-size: 1.2rem;
+          color: #fff;
+          background-color: #c596f0;
+          border-radius: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        label {
+          margin-top: 0.4rem;
+          font-size: 0.7rem;
+        }
+      }
+    }
+    .reload-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      min-height: 70vh;
+      gap: 12px;
+      img{
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+  .items:focus {
+    box-shadow: 1px 1px 12px 2px #fff !important;
+  }
+}

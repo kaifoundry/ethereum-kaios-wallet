@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+.App {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.brand-name{
+  background: linear-gradient(160deg , #6353dd,#9e59dd, #ad55d6);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.items:focus {
+  box-shadow: 1px 1px 12px 2px #ad55d6 !important;
+}

@@ -1,0 +1,90 @@
+.home-screen-container{
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+
+    .animated-bg{
+        position: relative;
+        .star-1{
+            width: 14px;
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            z-index: 2;
+        }
+        .star-2{
+            width: 20px;
+            position: absolute;
+            top: 1.8rem;
+            left: 5rem;
+            z-index: 2;
+        }
+        .star-3{
+            width: 17px;
+            position: absolute;
+            top: 5rem;
+            left: .7rem;
+            z-index: 2;
+        }
+
+        .circle-1{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 2px solid #ad55d6;
+            top: -90px;
+            left: -70%;
+            z-index: 1;
+        }
+        .circle-2{
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 2px solid #6353dd;
+            top: -180px;
+            left: -60%;
+            z-index: 1;
+        }
+    }
+
+    .content{
+        position: absolute;
+        top:42%;
+
+        .heading{
+            font-size: 1.3rem;
+            font-weight: 700;
+            .brand-name{
+                background: linear-gradient(160deg , #6353dd,#9e59dd, #ad55d6);
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+                color: transparent;
+            }
+        }
+
+        .subtitle{
+            margin-top: .8rem;
+            font-size: .9rem;
+            width: 80%;
+        }
+
+        .btn{
+            margin-top: 1.7rem;
+            button{
+                padding: .5rem 1rem;
+                border-radius: 10px;
+                border: unset;
+                outline: unset;
+                color: #fff;
+                background: linear-gradient(160deg , #6353dd,#9e59dd, #ad55d6);
+                box-shadow: none;
+            }
+        }
+    }
+}

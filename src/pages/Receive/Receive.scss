@@ -1,0 +1,92 @@
+.receive-screen {
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+
+  .content {
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    height: calc(100vh - 2.4rem);
+    background: linear-gradient(160deg, #6353dd, #9e59dd, #ad55d6);
+
+    .heading {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+      button {
+        border: unset;
+        background-color: unset;
+        color: #fff;
+        outline: unset;
+        border-radius: 10px;
+        padding: 0.5rem;
+        font-weight: 700;
+      }
+    }
+
+    .key {
+      margin-top: 1rem;
+      p {
+        width: calc(100% - 1rem);
+        word-wrap: break-word;
+        padding: 0.5rem;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.172);
+        font-size: 0.8rem;
+      }
+    }
+
+    .qr {
+      padding: 11px;
+      margin: auto;
+      margin-top: 1rem;
+      width: 100px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 10px;
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.172);
+      .icon {
+        font-size: 6rem;
+      }
+    }
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: .6rem;
+
+    button {
+      outline: unset;
+      border: unset;
+      padding: 0.6rem;
+      font-size: 1.2rem;
+      color: #fff;
+      background-color: #c596f0;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 1rem;
+    }
+  }
+  .items:focus {
+    box-shadow: 1px 1px 12px 2px #fff !important;
+  }
+}

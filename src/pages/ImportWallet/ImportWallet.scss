@@ -1,0 +1,61 @@
+.import-wallet-screen {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  box-sizing: border-box;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+
+  .heading {
+    text-align: center;
+  }
+
+  .content {
+    padding: 1rem;
+    margin-top: .5rem;
+    border-radius: 10px;
+    background: linear-gradient(160deg, #6353dd, #9e59dd, #ad55d6);
+
+    p {
+      font-size: 0.8rem;
+      margin-bottom: 0.8rem;
+      line-height: 1.4;
+    }
+
+    label{
+        font-size: .8rem;
+    }
+
+    textarea {
+      margin-top: 10px;
+      border: unset;
+      outline: unset;
+      border-radius: 5px;
+      padding: 0.3rem 0.6rem;
+      font-size: 0.7rem;
+      width: calc(100% - 1.2rem);
+      resize: none;
+      background-color: #000;
+      color: #fff;
+    }
+
+    .btn {
+      margin-top: 0.6rem;
+      button {
+        width: 100%;
+        padding: 0.5rem 1rem;
+        border-radius: 10px;
+        border: unset;
+        outline: unset;
+        color: #fff;
+        background: #000;
+        box-shadow: none;
+        font-size: 0.7rem;
+      }
+    }
+    .items:focus {
+      box-shadow: 1px 1px 12px 2px #fff !important;
+    }
+  }
+}
